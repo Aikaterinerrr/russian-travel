@@ -8,6 +8,7 @@
     "image paragraphs"
     "image paragraphs";
   margin-bottom: 80px;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,10 +26,10 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 650px) {
   .place {
-    margin-bottom: 50px;
-    grid-template-columns: 320px;
+    margin-bottom: 60px;
+    grid-template-columns: 440px;
     row-gap: 32px;
     grid-template-areas:
     "title"
@@ -36,6 +37,13 @@
     "image"
     "paragraphs"
     "paragraphs";
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .place {
+    margin-bottom: 50px;
+    grid-template-columns: 320px;
   }
 }
 

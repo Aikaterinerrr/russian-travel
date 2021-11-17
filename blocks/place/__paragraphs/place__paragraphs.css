@@ -1,0 +1,11 @@
+.place__paragraphs {
+  grid-area: paragraphs;
+  margin: 0 auto 0 0;
+  width: 90%;
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraphs {
+    margin: 0 auto;
+  }
+}

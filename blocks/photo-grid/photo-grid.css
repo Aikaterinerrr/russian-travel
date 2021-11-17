@@ -1,5 +1,5 @@
 .photo-grid {
-  width: 100%;
+  max-width: 1184px;
   margin: 0 auto;
 }
 
@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .photo-grid {
     max-width: 288px;
   }

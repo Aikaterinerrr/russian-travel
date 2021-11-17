@@ -2,9 +2,7 @@
   padding-top: 92px;
   padding-bottom: 12px;
   max-width: 984px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,5 +22,6 @@
   .places {
     max-width: 320px;
     padding-bottom: 16px;
+    padding-top: 64px;
   }
 }
