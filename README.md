@@ -7,3 +7,4 @@
 4. Grid layout
 5. Figma
 
+## Ссылка на проект: https://aikaterinerrr.github.io/russian-travel/index.html.
