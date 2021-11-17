@@ -24,7 +24,6 @@
 }
 
 .cover__illustration:hover::before {
-  content: "";
   position: absolute;
   background: rgba(42, 44, 47, .8);
   top: 0;
