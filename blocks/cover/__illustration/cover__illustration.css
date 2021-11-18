@@ -24,12 +24,7 @@
 }
 
 .cover__illustration:hover::before {
-  position: absolute;
   background: rgba(42, 44, 47, .8);
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {

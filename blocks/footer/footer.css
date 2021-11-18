@@ -6,26 +6,28 @@
   max-width: 1184px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1183px) {
   .footer {
-    max-width: 90.63%;
+    max-width: 928px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 930px) {
   .footer {
-    max-width: 93.75%;
+    max-width: 720px;
     padding-top: 88px;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   .footer {
     margin: 0;
     padding-top: 64px;
     padding-left: 16px;
     flex-wrap: wrap;
     flex-direction: column;
+    max-width: 300px;
+    box-sizing: border-box;
   }
 }
 

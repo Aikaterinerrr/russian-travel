@@ -2,17 +2,7 @@
   margin-right: 18px;
 }
 
-@media screen and (max-width: 600px) {
-  .footer__list-item {
-    margin-right: 5px;
-  }
-
-  .footer__list-item:last-of-type {
-    margin-right: 0;
-  }
-}
-
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 720px) {
   .footer__list-item {
     margin-right: 0;
     margin-bottom: 32px;

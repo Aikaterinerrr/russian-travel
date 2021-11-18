@@ -1,13 +1,14 @@
 .photo-grid__item {
   display: inline-flex;
+  max-width: 284px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1183px) {
   .photo-grid__item {
     max-width: 300px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 930px) {
   .photo-grid__item {
     max-width: 352px;
   }
